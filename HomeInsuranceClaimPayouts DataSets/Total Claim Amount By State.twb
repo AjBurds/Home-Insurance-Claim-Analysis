@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Home Insurance Claim Payout Dataset (HomeInsuranceClaims)' inline='true' name='federated.1llblib0d2nhie19ny3ko11wwei2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LAPTOP-3B8HL4G4\SQLEXPRESS' name='sqlserver.1ml7cq018n2bdl142uj3v1ck68yn'>
+            <connection authentication='sspi' class='sqlserver' dbname='HomeInsuranceClaims' odbc-native-protocol='yes' one-time-sql='' server='LAPTOP-3B8HL4G4\SQLEXPRESS' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='sqlserver.1ml7cq018n2bdl142uj3v1ck68yn' name='Home Insurance Claim Payout Dataset' table='[dbo].[Home Insurance Claim Payout Dataset]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='sqlserver.1ml7cq018n2bdl142uj3v1ck68yn' name='Home Insurance Claim Payout Dataset' table='[dbo].[Home Insurance Claim Payout Dataset]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Claim ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Claim ID]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Claim ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Claim Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Claim Amount]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Claim Amount</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_FLOAT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Claim Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Claim Type]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Claim Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer Age]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Customer Age</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Home Value</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Home Value]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Home Value</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insurance Coverage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Insurance Coverage]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Insurance Coverage</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Claim Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Claim Status]</local-name>
+            <parent-name>[Home Insurance Claim Payout Dataset]</parent-name>
+            <remote-alias>Claim Status</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation flag='2147483649' name='LEN_RUS_S2_VWIN' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Home Insurance Claim Payout Dataset' datatype='table' name='[__tableau_internal_object_id__].[Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Home Insurance Claim Payout Dataset' id='Home Insurance Claim Payout Dataset_C3C7ECCEDD004C4198F5A6AB324BBB4C'>
+            <properties context=''>
+              <relation connection='sqlserver.1ml7cq018n2bdl142uj3v1ck68yn' name='Home Insurance Claim Payout Dataset' table='[dbo].[Home Insurance Claim Payout Dataset]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Total Claim Amount By State</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Home Insurance Claim Payout Dataset (HomeInsuranceClaims)' name='federated.1llblib0d2nhie19ny3ko11wwei2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1llblib0d2nhie19ny3ko11wwei2'>
+            <column datatype='real' name='[Claim Amount]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Claim Amount]' derivation='Sum' name='[sum:Claim Amount:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1llblib0d2nhie19ny3ko11wwei2].[sum:Claim Amount:qk]</rows>
+        <cols>[federated.1llblib0d2nhie19ny3ko11wwei2].[none:State:nk]</cols>
+      </table>
+      <simple-id uuid='{3D13BA2D-95F3-4038-9878-3E316578EF33}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1llblib0d2nhie19ny3ko11wwei2].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2FD44A5C-BFE7-4A97-8E93-760378D06E45}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

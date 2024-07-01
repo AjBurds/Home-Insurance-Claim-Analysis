@@ -1,0 +1,7 @@
+"This analysis explores home insurance claim payouts in the United States over the past 5 years. The data includes factors such as claim amount, claim type, state, and claim status."
+
+Data cleaning: -Checked for missing values. - Verified and corrected data types for each column. -Removed duplicate entries to ensure data accuracy.
+
+Created pivot tables and charts to summarize and visualize the data: -Total claim amount by state with a bar chart showing  the total claim amounts for each state.
+The average claim amount by claim type visualized with a 3D pie chart.
+Count of claims by status represented by a bar chart. 
